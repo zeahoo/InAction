@@ -27,13 +27,4 @@ public class Minstrel {
   public void singAfterQuest() {
     stream.println("Tee hee hee, the brave knight did embark on a quest!");
   }
-//  @Before("execution(* *.embarkOnQuest(..))")
-//  public void singBeforeQuest() {
-//    stream.println("Fa la la, the knight is so brave!");
-//  }
-//
-//  @After("execution(* *.embarkOnQuest(..))")
-//  public void singAfterQuest() {
-//    stream.println("Tee hee hee, the brave knight did embark on a quest!");
-//  }
 }
