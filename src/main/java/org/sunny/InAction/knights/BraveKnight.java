@@ -2,7 +2,8 @@ package org.sunny.InAction.knights;
 
 import org.sunny.InAction.quest.Quest;
 
-public class BraveKnight implements Knight{
+public class BraveKnight implements Knight {
+
   private Quest quest;
 
   public BraveKnight(Quest quest) {
