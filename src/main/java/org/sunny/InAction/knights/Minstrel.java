@@ -15,7 +15,7 @@ public class Minstrel {
     this.stream = stream;
   }
 
-  @Pointcut("execution(* *.embarkOnQuest(..))")
+  @Pointcut("execution(* *.embarkOnQuest(..))") // 申明切点位置
   public void embark() {
   }
   @Before("embark()")

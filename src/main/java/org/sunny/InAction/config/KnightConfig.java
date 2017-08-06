@@ -10,7 +10,7 @@ import org.sunny.InAction.quest.Quest;
 import org.sunny.InAction.quest.SlayDragonQuest;
 
 @Configuration
-@EnableAspectJAutoProxy
+@EnableAspectJAutoProxy // 启动AspectJ自动代理
 public class KnightConfig {
 
   @Bean
@@ -18,7 +18,7 @@ public class KnightConfig {
     return new BraveKnight(quest());
   }
 
-  @Bean
+  @Bean // 切面也需要bean注入才能使用
   public Minstrel minstrel() {
     return new Minstrel(System.out);
   }
